@@ -1,0 +1,11 @@
+body{
+    background-color: #ccc;
+}
+footer{
+    background-color: #a9a9a9;
+}
+.container{
+    margin: 0 auto 0 auto;
+    padding: 10px 0 10px 0;
+}
+
