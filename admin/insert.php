@@ -14,6 +14,12 @@
     <title>Formulario</title>
 </head>
 
+<script>
+tinymce.init({
+  selector: 'textarea#default'
+});
+</script>
+
 <body>
     <main>
         <div class="container">
@@ -31,7 +37,8 @@
             <div class="mb-3">
                 <form action="envia.php" method="POST" enctype="multipart/form-data">
                 <label for="disabledTextInput" class="form-label">Texto descritivel</label>
-                <textarea class="form-control" id="description" rows="3" placeholder="Descrição" name="description"></textarea>
+                <textarea id="default" name="description">Hello, World!</textarea>
+
             </div>
             <div class="mb-3">
                 <form action="envia.php" method="POST" enctype="multipart/form-data">
